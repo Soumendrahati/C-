@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
+//// Static Imports 
 using static System.Math;
 using static CSharpPractice.Util;
 
@@ -12,6 +14,14 @@ namespace CSharpPractice
     class Program
     {
         static void Main(string[] args)
+        {
+            StaticImports();
+        }
+
+        /// <summary>
+        /// Static Imports C# 6.0
+        /// </summary>
+        public static void StaticImports()
         {
             int r = Math.Min(10, 11);
             Console.WriteLine(r);
@@ -29,26 +39,5 @@ namespace CSharpPractice
             //// The static using directive also imports any nested types
             nested obj = new nested();
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
 }
