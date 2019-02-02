@@ -26,7 +26,8 @@ namespace CSharpPractice
 
             Console.ReadLine();
 
-            
+            //// The static using directive also imports any nested types
+            nested obj = new nested();
         }
 
 

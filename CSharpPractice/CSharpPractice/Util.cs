@@ -17,5 +17,13 @@ namespace CSharpPractice
         {
             return "HI " + s;
         }
+
+        public class nested
+        {
+            public nested()
+            {
+
+            }
+        }
     }
 }
